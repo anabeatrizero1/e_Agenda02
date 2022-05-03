@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\e_Agenda02.Dominio\e_Agenda02.Dominio.csproj" />
+    <ProjectReference Include="..\e_Agenda02.Infra.Arquivo\e_Agenda02.Infra.Arquivo.csproj" />
+  </ItemGroup>
+
+</Project>
